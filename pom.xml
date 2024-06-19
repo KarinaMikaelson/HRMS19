@@ -89,7 +89,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>HRMSBatch19</projectName>
+                            <projectName>HRMS19</projectName>
                             <!-- optional, per documentation set this to "true" to bypass generation of Cucumber Reports entirely, defaults to false if not specified -->
                             <!-- output directory for the generated report -->
                             <outputDirectory>${project.build.directory}</outputDirectory>

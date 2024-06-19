@@ -3,7 +3,6 @@ package utils;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -16,6 +15,8 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import java.util.List;
+
 
 public class CommonMethods extends PageInitializer{
     public static WebDriver driver;
@@ -115,6 +116,18 @@ public class CommonMethods extends PageInitializer{
             }
         } else {
             throw new RuntimeException("Checkbox element is not clickable: " + checkboxElement);
+        }
+    }
+    public static void waitForElementToBeVisible(WebElement element){
+        getWait().until(ExpectedConditions.visibilityOf(element));
+    }
+    public static void chooseCalendarDate(WebElement element, String date){
+        List<WebElement> days = element.findElements(By.tagName("td"));
+        for (WebElement day : days) {
+            if (day.getText().equals(date)) {
+                day.click();
+                break;
+            }
         }
     }
 }

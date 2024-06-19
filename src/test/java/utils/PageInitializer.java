@@ -9,6 +9,7 @@ public class PageInitializer {
         public static EmployeeSearchPage employeeSearchPage;
         public static AccessingMembershipSectionPage accessingMembershipSectionPage;
         public static ManageEmployeeMembershipPage manageEmployeeMembershipPage;
+        public static EditEmployeeDetailsPage editEmployeeDetailsPage;
 
 
 
@@ -19,6 +20,7 @@ public class PageInitializer {
             employeeSearchPage=new EmployeeSearchPage();
             accessingMembershipSectionPage = new AccessingMembershipSectionPage();
             manageEmployeeMembershipPage = new ManageEmployeeMembershipPage();
+            editEmployeeDetailsPage = new EditEmployeeDetailsPage();
         }
 
 }

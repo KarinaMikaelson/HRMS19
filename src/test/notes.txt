@@ -2,21 +2,122 @@
 2. AccessingMembership.feature - DONE
 3. ManageMembership.feature - DONE
 4. AddEmployee.feature - DONE
-
-       Adding Employee to the HRMS application without
-       providing an employee ID.
-
-5. EmployeeSearch.feature
+5. EmployeeSearch.feature - DONE
+        partial name matches and variations in capitalization.
+        The system should provide a message “No Records Found” if no matching employee records are found
+----------------------------
+6. ManageEmployee work experience
 
 Acceptance Criteria:
 
-As an admin user, I should be able to search for an employee using their full name (first and last name) as the search criteria.
-The search should return all matching employee records.
-The search functionality should be flexible and capable of handling partial name matches and variations in capitalization.
-As an admin user, I should be able to search for an employee using their unique employee ID as the search criteria.
-The search should return the exact employee record associated with the provided employee ID.
-The system should provide a message “No Records Found” if no matching employee records are found
+The employee can access their profile and navigate to the work experience section.
+The following fields should be displayed and editable for the employee:
 
-6.
+Company: a text box where the employee can enter the name of the company where they worked.
+Job Title: a text box where the employee can enter their job title.
+From: a calendar where the employee can select the start date of the work experience.
+To: a calendar where the employee can select the end date of the work experience.
+Comment: a text box where the employee can enter additional comments or details about the work experience.
+The system should validate that mandatory fields (Company, Job Title, From) are filled in before allowing the employee to save the work experience details.
+After the employee saves the work experience details, the system should store the work experience details in the employee's profile.
+The employee should be able to edit or delete their previously saved work experience details.
 
+----------------------------------------------------
+7. EditEmployeeDetails
+      Acceptance Criteria:
 
+      The employee should be able to access and edit their personal information, including the following fields:
+      First Name: A textbox should be displayed where the employee can enter or update their first name.
+      Middle Name: A textbox should be displayed where the employee can enter or update their middle name (optional).
+      Last Name: A textbox should be displayed where the employee can enter or update their last name.
+      Gender: A radio button should be displayed where the employee can select or update their gender (Male, Female).
+      Nationality: A dropdown should be displayed where the employee can select or update their nationality.
+      Marital Status: A dropdown should be displayed where the employee can select or update their marital status (Single, Married, Other).
+      Upon successful submission of the updated personal information, the system should save the changes.
+----------------------------------------------------
+8. Admin can manage employees current job section
+
+ Acceptance Criteria:
+
+ The Admin user can access the employee's profile and navigate to the current job details section.
+ The following fields should be displayed and editable for the Admin user:
+
+ Job Title: a dropdown field where the Admin user can select the job title of the employee.
+ Employment Status: a dropdown field where the Admin user can select the employment status of the employee (Full-time, Part-time, Contract, etc.).
+ Job Category: a dropdown field where the Admin user can select the job category of the employee (Sales, Marketing, HR, etc.).
+ Joined Date: a calendar where the Admin user can select the date when the employee joined the organization.
+ Sub Unit: a dropdown field where the Admin user can select the sub unit where the employee is currently working.
+ Location: a dropdown field where the Admin user can select the location where the employee is currently working.
+ Start Date: a calendar where the Admin user can select the start date of the employee's current job.
+ End Date: a calendar where the Admin user can select the end date of the employee's current job (if applicable).
+ Contract Details: a file upload field that accepts files up to 1MB where the Admin user can upload the employee's contract details (if applicable).
+ The system should validate that mandatory fields (Job Title, Employment Status, Joined Date, Sub Unit, Location) are filled in before allowing the Admin user to save the current job details.
+ After the Admin user saves the current job details, the system should store the current job details in the employee's profile.
+----------------------------------------------------
+
+9. AddMembershipsUnderQualifications
+As an admin user should be able to add different memberships under qualifications
+Given “Admin” user is logged in
+
+When “Admin” navigates to Qualifications
+
+And selects Memberships
+
+Then “Admin” user can add any Memberships
+----------------------------------------------------
+10. AddEmployeeDependants to hrms app
+
+Acceptance Criteria:
+
+The employee should be able to access a dedicated section within the HRMS application to add dependents.
+The following fields must be displayed and editable for adding a dependent:
+Name: A textbox should be displayed where the employee can enter the full name of the dependent.
+Relationship: A dropdown should be displayed where the employee can select the relationship of the dependent (e.g., Spouse, Child, Parent, Sibling, Other).
+Date of Birth: A calendar or date input field should be displayed where the employee can select or enter the dependent's date of birth.
+The employee should be able to add multiple dependents, and the HRMS application should clearly display the list of dependents added by the employee.
+The system should provide appropriate error messages or prompts for users who submit incomplete or invalid dependent information. Error messages should be clear, easily visible, and placed near the respective input fields.
+The employee should be able to review, edit, or remove dependents as needed.
+----------------------------------------------------
+
+11. AddEmployeeLanguage feature
+
+Acceptance Criteria
+
+The employee can access their profile and navigate to the language proficiency section.
+The following fields should be displayed and editable for the employee:
+Language: a dropdown field where the employee can select the language they are proficient in.
+Fluency: a dropdown field where the employee can select their level of fluency in the language (Basic, Intermediate, Advanced, Fluent).
+Competency: a dropdown field where the employee can select their competency level in the language (Speaking, Reading, Writing).
+Comments: a text box where the employee can enter additional comments or details about their language proficiency.
+The system should validate that mandatory fields (Language, Fluency, Competency) are filled in before allowing the employee to save their language proficiency details.
+After the employee saves their language proficiency details, the system should store the language proficiency details in the employee's profile.
+The employee should be able to edit or delete their previously saved language proficiency details.
+----------------------------------------------------
+12. AddLanguagesQualificationsAdmin
+
+Acceptance Criteria
+
+Given “Admin” user is logged in
+
+When “Admin” navigates to Qualifications
+
+And selects Language
+
+Then “Admin” user can add any Language
+
+----------------------------------------------------
+13. TerminateEmployee
+
+Acceptance Criteria:
+
+Given Admin user log in to the system using valid credentials.
+
+When user accesses the list of employees in the system.
+
+And select a specified employee from the list.
+
+And navigate to the employee's job page.
+
+And select the option to terminate the employment of the specified employee.
+
+Then specified employee is terminated

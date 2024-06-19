@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
 
         dryRun = false,
 
-        tags = "@empSearchId",
+        tags = "@editPersonalInfo",
 
         plugin = {"pretty", "html:target/cucumber.html", "json:target/cucumber.json", "rerun:target/failed.txt"}
 

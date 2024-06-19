@@ -23,7 +23,7 @@ Feature: Employee Search Scenarios
         Scenario: Employee search using unique id
         When user clicks on Employee List option
         Then user successfully entered Employee Information page
-        When user enters employee id
+        When user enters employee id "16598643"
         And user clicks on Search button
-        Then user should see employee information with matching id
+        Then user should see employee information with matching id "16598643"
 

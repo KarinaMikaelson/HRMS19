@@ -20,8 +20,11 @@ public class EmployeeSearchPage extends CommonMethods {
 
     @FindBy(id = "empsearch_id")
     public WebElement empIdField;
-    @FindBy(id = "//div[@id='tableWrapper']/table/tbody/tr/td[2]")
+    @FindBy(xpath = "//div[@id='tableWrapper']/table/tbody/tr/td[2]")
     public WebElement idSearchResults;
+    @FindBy(id = "search-results")
+    public WebElement searchRestTable;
+
 
     public EmployeeSearchPage() {
         PageFactory.initElements(driver, this);

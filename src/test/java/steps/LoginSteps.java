@@ -75,8 +75,8 @@ public class LoginSteps extends CommonMethods {
     public void employee_clicks_login() {
      click(loginPage.loginButton);
     }
-    @Then("Employee is sucessfully logged in")
-    public void employee_is_sucessfully_logged_in() {
+    @Then("Employee is successfully logged in")
+    public void employee_is_successfully_logged_in() {
       Assert.assertTrue(dashboardpage.welcomeMessage.isDisplayed());
     }
 }

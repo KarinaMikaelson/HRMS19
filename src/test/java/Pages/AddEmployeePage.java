@@ -6,30 +6,22 @@ import org.openqa.selenium.support.PageFactory;
 import utils.CommonMethods;
 
 public class AddEmployeePage extends CommonMethods {
+    @FindBy(xpath = "//div[@id='content']")
+    public WebElement addEmployeeTab;
     @FindBy(id="firstName")
-    public WebElement firstName;
-    @FindBy(id="middleName")
-    public WebElement middleName;
+    public WebElement firstNameField;
     @FindBy(id="lastName")
-    public WebElement lastName;
+    public WebElement lastNameField;
     @FindBy(id="employeeId")
-    public WebElement employeeId;
-    @FindBy(id="chkLogin")
-    public WebElement CreateLoginDetails;
-    @FindBy(id="user_name")
-    public WebElement username;
-    @FindBy(id="user_password")
-    public WebElement password;
-    @FindBy(id="re_password")
-    public WebElement reenterPassword;
-    @FindBy(id="status")
-    public WebElement statusMenu;
+    public WebElement employeeIdField;
+    @FindBy(id="employee-details")
+    public WebElement newEmpPersonalDetailsTab;
+
     @FindBy(id="btnSave")
-    public WebElement saveButton;
+    public WebElement svBtn;
+
 
     public AddEmployeePage(){
         PageFactory.initElements(driver,this);
     }
-
-
 }

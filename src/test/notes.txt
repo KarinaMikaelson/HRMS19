@@ -1,0 +1,18 @@
+1. Login.feature  - DONE
+2. AccessingMembership.feature - DONE
+3. ManageMembership.feature - DONE
+4. AddEmployee.feature
+
+       Adding Employee to the HRMS application without
+       providing an employee ID.
+
+5. EmployeeSearch.feature
+6. Employee Job
+
+
+And user leaves Employee ID field empty
+@When("user leaves Employee ID field empty")
+    public void user_leaves_employee_id_field_empty() {
+        addEmployeePage.employeeIdField.clear();
+        Log.info("Employee ID field is cleared");
+    }

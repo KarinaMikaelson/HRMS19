@@ -65,6 +65,7 @@ public class ManageEmployeeMembershipSteps extends CommonMethods {
     @Then("user should see successfully saved message on the assigned memberships page")
     public void user_should_see_successfully_saved_message_on_the_assigned_membership_page() {
         waitForElementToBeVisible(manageEmployeeMembershipPage.successfullyAddedMessage);
+        Assert.assertTrue(manageEmployeeMembershipPage.successfullyAddedMessage.isDisplayed());
         Log.info("Successfully Saved message has appeared");
     }
 

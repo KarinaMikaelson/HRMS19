@@ -1,18 +1,22 @@
 1. Login.feature  - DONE
 2. AccessingMembership.feature - DONE
 3. ManageMembership.feature - DONE
-4. AddEmployee.feature
+4. AddEmployee.feature - DONE
 
        Adding Employee to the HRMS application without
        providing an employee ID.
 
 5. EmployeeSearch.feature
-6. Employee Job
+
+Acceptance Criteria:
+
+As an admin user, I should be able to search for an employee using their full name (first and last name) as the search criteria.
+The search should return all matching employee records.
+The search functionality should be flexible and capable of handling partial name matches and variations in capitalization.
+As an admin user, I should be able to search for an employee using their unique employee ID as the search criteria.
+The search should return the exact employee record associated with the provided employee ID.
+The system should provide a message “No Records Found” if no matching employee records are found
+
+6.
 
 
-And user leaves Employee ID field empty
-@When("user leaves Employee ID field empty")
-    public void user_leaves_employee_id_field_empty() {
-        addEmployeePage.employeeIdField.clear();
-        Log.info("Employee ID field is cleared");
-    }

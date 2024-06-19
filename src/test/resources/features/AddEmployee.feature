@@ -4,11 +4,11 @@ Feature: Adding Employee to the HRMS application without providing employee ID
     When Admin user enters valid admin username and password
     And User click login
     Then user is successfully logged in and navigated to dashboard page
+    When user navigates on PIM option
 
     @addEmployee @test @addEmpWithoutId
     Scenario: Adding employee without providing employee ID
-      When user navigates on PIM option
-      And user clicks on Add member option
+      When user clicks on Add member option
       Then user successfully entered Add membership page
       When user enters employees firstName and lastName
       And user leaves Employee ID field empty

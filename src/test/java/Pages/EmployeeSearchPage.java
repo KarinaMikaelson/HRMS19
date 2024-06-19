@@ -6,39 +6,22 @@ import org.openqa.selenium.support.PageFactory;
 import utils.CommonMethods;
 
 public class EmployeeSearchPage extends CommonMethods {
-
-    @FindBy(id = "menu_pim_viewPimModule")
-    public WebElement pimOption;
-
-    @FindBy(id = "menu_pim_viewEmployeeList")
-    public WebElement ViewEmployeeList;
+    @FindBy(id = "employee-information")
+    public WebElement empInfoTab;
 
     @FindBy(id = "empsearch_employee_name_empName")
-    public WebElement SearchEmpByNameField;
-
-    @FindBy(id = "empsearch_id")
-    public WebElement SearchEmpByIdField;
-
-    @FindBy(id = "empsearch_employee_status")
-    public WebElement SearchEmpStatusField;
-
-    @FindBy(id = "empsearch_termination")
-    public WebElement SearchCurrOrPastEmp;
-
-    @FindBy(id = "empsearch_termination")
-    public WebElement SearchBySupervisorName;
-
-    @FindBy(id = "empsearch_job_title")
-    public WebElement SearchByJobTitle;
-
-    @FindBy(id = "empsearch_sub_unit")
-    public WebElement SearchSubUnit;
+    public WebElement empSrchNameField;
 
     @FindBy(id = "searchBtn")
-    public WebElement EmpSearchButton;
+    public WebElement searchBtn;
 
-    @FindBy(id = "resetBtn")
-    public WebElement ResetButton;
+    @FindBy(xpath = "//div[@id='tableWrapper']/table/tbody/tr/td[3]")
+    public WebElement searchResults;
+
+    @FindBy(id = "empsearch_id")
+    public WebElement empIdField;
+    @FindBy(id = "//div[@id='tableWrapper']/table/tbody/tr/td[2]")
+    public WebElement idSearchResults;
 
     public EmployeeSearchPage() {
         PageFactory.initElements(driver, this);

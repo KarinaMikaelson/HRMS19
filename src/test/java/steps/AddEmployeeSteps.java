@@ -14,11 +14,10 @@ public class AddEmployeeSteps extends CommonMethods {
     @When("user navigates on PIM option")
     public void user_navigates_on_pim_option() {
         waitForElementToBeClickable(dashboardpage.pimOption);
-        //click(dashboardpage.pimOption);
         Actions actions = new Actions(driver);
         actions.moveToElement(dashboardpage.pimOption).perform();
         DOMConfigurator.configure("log4j.xml");
-        Log.startTestCase("Adding Employee to the HRMS application without providing employee ID");
+        Log.startTestCase("Navigating to PIM option");
         Log.info("PIM option has been clicked");
 
     }
@@ -26,6 +25,8 @@ public class AddEmployeeSteps extends CommonMethods {
     public void user_clicks_on_add_member_option() {
         waitForElementToBeClickable(dashboardpage.addEmployeeOption);
         click(dashboardpage.addEmployeeOption);
+        DOMConfigurator.configure("log4j.xml");
+        Log.startTestCase("Adding Employee to the HRMS application without providing employee ID");
         Log.info("Add Employee option has been clicked");
     }
     @Then("user successfully entered Add membership page")

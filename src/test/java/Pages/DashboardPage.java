@@ -64,6 +64,9 @@ public class DashboardPage extends CommonMethods {
     @FindBy(xpath = "//a[text()='Logout']")
     public WebElement logoutOption;
 
+    @FindBy(id = "menu_pim_viewEmployeeList")
+    public  WebElement empListOption;
+
     public DashboardPage(){
         PageFactory.initElements(driver, this);
     }

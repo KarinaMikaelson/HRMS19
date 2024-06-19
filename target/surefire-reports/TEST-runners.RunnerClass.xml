@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.RunnerClass" time="53.171" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.RunnerClass" time="0.09" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Users/karina/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/karina/IdeaProjects/HRMS_Framework/hrms19/target/surefire/surefirebooter-20240618211630984_3.jar /Users/karina/IdeaProjects/HRMS_Framework/hrms19/target/surefire 2024-06-18T21-16-30_952-jvmRun1 surefire-20240618211630984_1tmp surefire_0-20240618211630984_2tmp"/>
+    <property name="sun.java.command" value="/Users/karina/IdeaProjects/HRMS_Framework/hrms19/target/surefire/surefirebooter-20240619024712416_3.jar /Users/karina/IdeaProjects/HRMS_Framework/hrms19/target/surefire 2024-06-19T02-47-12_380-jvmRun1 surefire-20240619024712416_1tmp surefire_0-20240619024712416_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/karina/IdeaProjects/HRMS_Framework/hrms19/target/test-classes:/Users/karina/IdeaProjects/HRMS_Framework/hrms19/target/classes:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-java/4.12.1/selenium-java-4.12.1.jar:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-api/4.12.1/selenium-api-4.12.1.jar:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.12.1/selenium-chrome-driver-4.12.1.jar:/Users/karina/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/karina/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/karina/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/karina/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/karina/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/karina/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/karina/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/karina/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.12.1/selenium-chromium-driver-4.12.1.jar:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-json/4.12.1/selenium-json-4.12.1.jar:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.12.1/selenium-manager-4.12.1.jar:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.12.1/selenium-devtools-v114-4.12.1.jar:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v115/4.12.1/selenium-devtools-v115-4.12.1.jar:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v116/4.12.1/selenium-devtools-v116-4.12.1.jar:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.12.1/selenium-devtools-v85-4.12.1.jar:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.12.1/selenium-edge-driver-4.12.1.jar:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.12.1/selenium-firefox-driver-4.12.1.jar:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-http/4.12.1/selenium-http-4.12.1.jar:/Users/karina/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.12.1/selenium-ie-driver-4.12.1.jar:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.12.1/selenium-remote-driver-4.12.1.jar:/Users/karina/.m2/repository/io/netty/netty-buffer/4.1.96.Final/netty-buffer-4.1.96.Final.jar:/Users/karina/.m2/repository/io/netty/netty-codec-http/4.1.96.Final/netty-codec-http-4.1.96.Final.jar:/Users/karina/.m2/repository/io/netty/netty-codec/4.1.96.Final/netty-codec-4.1.96.Final.jar:/Users/karina/.m2/repository/io/netty/netty-handler/4.1.96.Final/netty-handler-4.1.96.Final.jar:/Users/karina/.m2/repository/io/netty/netty-common/4.1.96.Final/netty-common-4.1.96.Final.jar:/Users/karina/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar:/Users/karina/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar:/Users/karina/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final.jar:/Users/karina/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final.jar:/Users/karina/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final.jar:/Users/karina/.m2/repository/io/netty/netty-transport/4.1.96.Final/netty-transport-4.1.96.Final.jar:/Users/karina/.m2/repository/io/netty/netty-resolver/4.1.96.Final/netty-resolver-4.1.96.Final.jar:/Users/karina/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/karina/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/karina/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/karina/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/karina/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/karina/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/karina/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/karina/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/karina/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/karina/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/karina/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/karina/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/karina/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/karina/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/karina/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/karina/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/karina/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/karina/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/karina/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/karina/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/karina/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/karina/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/karina/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/karina/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-os/4.12.1/selenium-os-4.12.1.jar:/Users/karina/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.12.1/selenium-safari-driver-4.12.1.jar:/Users/karina/.m2/repository/org/seleniumhq/selenium/selenium-support/4.12.1/selenium-support-4.12.1.jar:/Users/karina/.m2/repository/io/cucumber/cucumber-java/7.16.1/cucumber-java-7.16.1.jar:/Users/karina/.m2/repository/io/cucumber/cucumber-core/7.16.1/cucumber-core-7.16.1.jar:/Users/karina/.m2/repository/io/cucumber/cucumber-gherkin/7.16.1/cucumber-gherkin-7.16.1.jar:/Users/karina/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.16.1/cucumber-gherkin-messages-7.16.1.jar:/Users/karina/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/Users/karina/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/Users/karina/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/Users/karina/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/Users/karina/.m2/repository/io/cucumber/datatable/7.16.1/datatable-7.16.1.jar:/Users/karina/.m2/repository/io/cucumber/cucumber-plugin/7.16.1/cucumber-plugin-7.16.1.jar:/Users/karina/.m2/repository/io/cucumber/docstring/7.16.1/docstring-7.16.1.jar:/Users/karina/.m2/repository/io/cucumber/html-formatter/21.3.0/html-formatter-21.3.0.jar:/Users/karina/.m2/repository/io/cucumber/junit-xml-formatter/0.3.0/junit-xml-formatter-0.3.0.jar:/Users/karina/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/karina/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/karina/.m2/repository/io/cucumber/cucumber-junit/7.16.1/cucumber-junit-7.16.1.jar:/Users/karina/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/karina/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/karina/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/karina/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/karina/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/karina/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/karina/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/karina/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/karina/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/karina/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/karina/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/karina/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/karina/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/karina/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/karina/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/karina/IdeaProjects/HRMS_Framework/hrms19/target/surefire/surefirebooter-20240618211630984_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/karina/IdeaProjects/HRMS_Framework/hrms19/target/surefire/surefirebooter-20240619024712416_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.2+13-58"/>
@@ -58,163 +58,42 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="Accessing the Memberships section" classname="Accessing the Memberships section feature" time="10.346">
-    <system-out><![CDATA[
-@test @karina @accessingMembershipSection
-Scenario: Accessing the Memberships section                 &amp#27;[90m# src/test/resources/features/AccessingMembershipSection.feature:9&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mEmployee enters valid employee username and password&amp#27;[0m &amp#27;[90m# steps.LoginSteps.employee_enters_valid_employee_username_and_password()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEmployee clicks login&amp#27;[0m                                 &amp#27;[90m# steps.LoginSteps.employee_clicks_login()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mEmployee is sucessfully logged in&amp#27;[0m                    &amp#27;[90m# steps.LoginSteps.employee_is_sucessfully_logged_in()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on My Info page&amp#27;[0m                          &amp#27;[90m# steps.AccessingMembershipSectionSteps.user_clicks_on_my_info_page()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the Memberships section&amp#27;[0m                &amp#27;[90m# steps.AccessingMembershipSectionSteps.user_clicks_on_the_memberships_section()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser successfully entered Assigned Memberships page&amp#27;[0m  &amp#27;[90m# steps.AccessingMembershipSectionSteps.user_successfully_entered_assigned_memberships_page()&amp#27;[0m
-
-    Embedding Accessing the Memberships section [image/png 271835 bytes]
-
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
-Jun 18, 2024 9:16:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 126
-Jun 18, 2024 9:16:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.62. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-log4j:WARN Continuable parsing error 5 and column 84
-log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
-Jun 18, 2024 9:16:41 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Connection reset
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-]]></system-err>
-  </testcase>
-  <testcase name="Create a new membership with valid details" classname="Manage employee membership section" time="11.685">
-    <system-out><![CDATA[
-@test @karina @addNewMembership
-Scenario: Create a new membership with valid details                               &amp#27;[90m# src/test/resources/features/ManageEmployeeMembership.feature:12&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mEmployee enters valid employee username and password&amp#27;[0m                        &amp#27;[90m# steps.LoginSteps.employee_enters_valid_employee_username_and_password()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEmployee clicks login&amp#27;[0m                                                        &amp#27;[90m# steps.LoginSteps.employee_clicks_login()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mEmployee is sucessfully logged in&amp#27;[0m                                           &amp#27;[90m# steps.LoginSteps.employee_is_sucessfully_logged_in()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on My Info page&amp#27;[0m                                                 &amp#27;[90m# steps.AccessingMembershipSectionSteps.user_clicks_on_my_info_page()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the Memberships section&amp#27;[0m                                       &amp#27;[90m# steps.AccessingMembershipSectionSteps.user_clicks_on_the_memberships_section()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser successfully entered Assigned Memberships page&amp#27;[0m                         &amp#27;[90m# steps.AccessingMembershipSectionSteps.user_successfully_entered_assigned_memberships_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on add button&amp#27;[0m                                                   &amp#27;[90m# steps.ManageEmployeeMembershipSteps.user_clicks_on_add_button()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters valid membership details&amp#27;[0m                                         &amp#27;[90m# steps.ManageEmployeeMembershipSteps.user_enters_valid_membership_details()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on save button&amp#27;[0m                                                  &amp#27;[90m# steps.ManageEmployeeMembershipSteps.user_clicks_on_save_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see successfully saved message on the assigned memberships page&amp#27;[0m &amp#27;[90m# steps.ManageEmployeeMembershipSteps.user_should_see_successfully_saved_message_on_the_assigned_membership_page()&amp#27;[0m
-
-    Embedding Create a new membership with valid details [image/png 289062 bytes]
-
-]]></system-out>
-    <system-err><![CDATA[Jun 18, 2024 9:16:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 126
-Jun 18, 2024 9:16:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.62. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-log4j:WARN Continuable parsing error 5 and column 84
-log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
-log4j:WARN Continuable parsing error 5 and column 84
-log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
-]]></system-err>
-  </testcase>
-  <testcase name="Add new membership with empty fields" classname="Manage employee membership section" time="9.119">
-    <system-out><![CDATA[
-@test @karina @addNewMembershipWithEmptyFields
-Scenario: Add new membership with empty fields                     &amp#27;[90m# src/test/resources/features/ManageEmployeeMembership.feature:19&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mEmployee enters valid employee username and password&amp#27;[0m        &amp#27;[90m# steps.LoginSteps.employee_enters_valid_employee_username_and_password()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEmployee clicks login&amp#27;[0m                                        &amp#27;[90m# steps.LoginSteps.employee_clicks_login()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mEmployee is sucessfully logged in&amp#27;[0m                           &amp#27;[90m# steps.LoginSteps.employee_is_sucessfully_logged_in()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on My Info page&amp#27;[0m                                 &amp#27;[90m# steps.AccessingMembershipSectionSteps.user_clicks_on_my_info_page()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the Memberships section&amp#27;[0m                       &amp#27;[90m# steps.AccessingMembershipSectionSteps.user_clicks_on_the_memberships_section()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser successfully entered Assigned Memberships page&amp#27;[0m         &amp#27;[90m# steps.AccessingMembershipSectionSteps.user_successfully_entered_assigned_memberships_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on add button&amp#27;[0m                                   &amp#27;[90m# steps.ManageEmployeeMembershipSteps.user_clicks_on_add_button()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks save button with empty mandatory fields&amp#27;[0m          &amp#27;[90m# steps.ManageEmployeeMembershipSteps.user_clicks_save_button_with_empty_mandatory_fields()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see validation messages for the required fields&amp#27;[0m &amp#27;[90m# steps.ManageEmployeeMembershipSteps.user_should_see_validation_messages_for_the_required_fields()&amp#27;[0m
-
-    Embedding Add new membership with empty fields [image/png 335231 bytes]
-
-]]></system-out>
-    <system-err><![CDATA[Jun 18, 2024 9:16:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 126
-Jun 18, 2024 9:16:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.62. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-log4j:WARN Continuable parsing error 5 and column 84
-log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
-log4j:WARN Continuable parsing error 5 and column 84
-log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
-log4j:WARN Continuable parsing error 5 and column 84
-log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
-]]></system-err>
-  </testcase>
-  <testcase name="Edit existing membership details" classname="Manage employee membership section" time="11.156">
-    <system-out><![CDATA[
-@test @karina @editExistingMembership
-Scenario: Edit existing membership details                                                  &amp#27;[90m# src/test/resources/features/ManageEmployeeMembership.feature:25&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mEmployee enters valid employee username and password&amp#27;[0m                                 &amp#27;[90m# steps.LoginSteps.employee_enters_valid_employee_username_and_password()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEmployee clicks login&amp#27;[0m                                                                 &amp#27;[90m# steps.LoginSteps.employee_clicks_login()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mEmployee is sucessfully logged in&amp#27;[0m                                                    &amp#27;[90m# steps.LoginSteps.employee_is_sucessfully_logged_in()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on My Info page&amp#27;[0m                                                          &amp#27;[90m# steps.AccessingMembershipSectionSteps.user_clicks_on_my_info_page()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the Memberships section&amp#27;[0m                                                &amp#27;[90m# steps.AccessingMembershipSectionSteps.user_clicks_on_the_memberships_section()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser successfully entered Assigned Memberships page&amp#27;[0m                                  &amp#27;[90m# steps.AccessingMembershipSectionSteps.user_successfully_entered_assigned_memberships_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on the membership code in the Assigned Memberships page&amp#27;[0m                  &amp#27;[90m# steps.ManageEmployeeMembershipSteps.user_clicks_on_the_membership_code_in_the_assigned_memberships_page()&amp#27;[0m
-Edit Membership Section is open
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe Edit Membership section should open&amp#27;[0m                                              &amp#27;[90m# steps.ManageEmployeeMembershipSteps.the_edit_membership_section_should_open()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser edits one or more fields in the Memberships section&amp#27;[0m                             &amp#27;[90m# steps.ManageEmployeeMembershipSteps.user_edits_one_or_more_fields_in_the_memberships_section()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on save button&amp#27;[0m                                                           &amp#27;[90m# steps.ManageEmployeeMembershipSteps.user_clicks_on_save_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see successfully saved message on the assigned memberships page&amp#27;[0m          &amp#27;[90m# steps.ManageEmployeeMembershipSteps.user_should_see_successfully_saved_message_on_the_assigned_membership_page()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser should see updated membership details displayed on the Assigned Memberships page&amp#27;[0m &amp#27;[90m# steps.ManageEmployeeMembershipSteps.user_should_see_updated_membership_details_displayed_on_the_assigned_memberships_page()&amp#27;[0m
-
-    Embedding Edit existing membership details [image/png 288019 bytes]
-
-]]></system-out>
-    <system-err><![CDATA[Jun 18, 2024 9:17:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 126
-Jun 18, 2024 9:17:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.62. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-log4j:WARN Continuable parsing error 5 and column 84
-log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
-log4j:WARN Continuable parsing error 5 and column 84
-log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
-]]></system-err>
-  </testcase>
-  <testcase name="Delete existing membership" classname="Manage employee membership section" time="10.6">
-    <system-out><![CDATA[
-@test @karina @deleteExistingMembership
-Scenario: Delete existing membership                        &amp#27;[90m# src/test/resources/features/ManageEmployeeMembership.feature:34&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mEmployee enters valid employee username and password&amp#27;[0m &amp#27;[90m# steps.LoginSteps.employee_enters_valid_employee_username_and_password()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEmployee clicks login&amp#27;[0m                                 &amp#27;[90m# steps.LoginSteps.employee_clicks_login()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mEmployee is sucessfully logged in&amp#27;[0m                    &amp#27;[90m# steps.LoginSteps.employee_is_sucessfully_logged_in()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on My Info page&amp#27;[0m                          &amp#27;[90m# steps.AccessingMembershipSectionSteps.user_clicks_on_my_info_page()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the Memberships section&amp#27;[0m                &amp#27;[90m# steps.AccessingMembershipSectionSteps.user_clicks_on_the_memberships_section()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser successfully entered Assigned Memberships page&amp#27;[0m  &amp#27;[90m# steps.AccessingMembershipSectionSteps.user_successfully_entered_assigned_memberships_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on checkbox next to the membership name&amp#27;[0m  &amp#27;[90m# steps.ManageEmployeeMembershipSteps.user_clicks_on_checkbox_next_to_the_membership_name()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on delete button&amp#27;[0m                          &amp#27;[90m# steps.ManageEmployeeMembershipSteps.user_clicks_on_delete_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see Successfully removed message&amp#27;[0m         &amp#27;[90m# steps.ManageEmployeeMembershipSteps.user_should_see_successfully_removed_message()&amp#27;[0m
-
-    Embedding Delete existing membership [image/png 281816 bytes]
-
-]]></system-out>
-    <system-err><![CDATA[Jun 18, 2024 9:17:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 126
-Jun 18, 2024 9:17:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.62. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-log4j:WARN Continuable parsing error 5 and column 84
-log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
-log4j:WARN Continuable parsing error 5 and column 84
-log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
-]]></system-err>
+  <testcase name="initializationError" classname="runners.RunnerClass" time="0.002">
+    <error message="Failed to parse resource at: file:///Users/karina/IdeaProjects/HRMS_Framework/hrms19/src/test/resources/features/EmployeeSearch.feature&#10;(28:0): unexpected end of file, expected: #TagLine, #RuleLine, #Comment, #Empty" type="io.cucumber.core.gherkin.FeatureParserException"><![CDATA[io.cucumber.core.gherkin.FeatureParserException: 
+Failed to parse resource at: file:///Users/karina/IdeaProjects/HRMS_Framework/hrms19/src/test/resources/features/EmployeeSearch.feature
+(28:0): unexpected end of file, expected: #TagLine, #RuleLine, #Comment, #Empty
+	at io.cucumber.core.gherkin.messages.GherkinMessagesFeatureParser.parse(GherkinMessagesFeatureParser.java:56)
+	at io.cucumber.core.feature.FeatureParser.parseResource(FeatureParser.java:46)
+	at java.base/java.util.function.BiFunction.lambda$andThen$0(BiFunction.java:70)
+	at io.cucumber.core.resource.ResourceScanner.lambda$processResource$1(ResourceScanner.java:79)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:75)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:60)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2786)
+	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:53)
+	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
+	at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)
+	at io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:134)
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:62)
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)
+	at io.cucumber.junit.Cucumber.<init>(Cucumber.java:156)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)
+	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:314)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
   </testcase>
 </testsuite>
